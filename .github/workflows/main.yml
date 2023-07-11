@@ -2,7 +2,9 @@
 
 name: Python package # 이름
 
-on: [push]
+on:
+  push:
+    branches: [dev] # (수정)dev 브렌치로 올렸을때만 수정되도록 함
 
 jobs:
   build: # 무엇을 실행할지
