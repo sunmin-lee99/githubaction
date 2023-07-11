@@ -32,3 +32,6 @@ jobs:
       - name: Test with pytest
         run: |
           pytest
+      - name: Run main.py # 내가 임의로 지정한 파일
+        run: |
+          pytest
